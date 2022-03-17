@@ -16,10 +16,10 @@ export const Navbar = () => {
         <Link to='/photo'>PHOTO GALLERY</Link>
         <NavPhoneEmail>
           <NavPhoneButton>
-            <FaPhoneAlt style={{'color': '#35f731', 'margin': '0rem 1rem', 'fontSize': '1.6rem'}} />
+            <FaPhoneAlt style={{'color': '#35f731', 'margin': '0rem 1rem', 'fontSize': '1.5rem'}} />
           </NavPhoneButton>
           <NavEmailButton>
-            <HiOutlineMail style={{'color': '#35f731', 'margin': '0rem 1rem', 'fontSize': '2rem'}} />
+            <HiOutlineMail style={{'color': '#195AE5', 'margin': '0rem 1rem', 'fontSize': '2rem'}} />
           </NavEmailButton>     
         </NavPhoneEmail>
       </Nav>

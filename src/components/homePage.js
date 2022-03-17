@@ -8,7 +8,7 @@ import { BiCloset } from 'react-icons/bi';
 function Home() {
   return (
     <HomeContainer>
-        <HomeHeader style={{'fontFamily': 'Rossetti'}}><BiCloset style={{'fontSize': '4rem', 'paddingRight': '2rem'}}/>make room for living<BiCloset style={{'fontSize': '4rem', 'paddingLeft': '2rem'}}/> </HomeHeader>
+        <HomeHeader style={{'fontFamily': 'Rossetti'}}>make room for living</HomeHeader>
         <HomeContent>
             <ModelContainer>
                 <ModelName style={{'animation': 'textLoop 9s infinite'}}>Contact Us</ModelName>

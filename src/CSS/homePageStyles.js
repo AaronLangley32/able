@@ -10,14 +10,14 @@ export const HomeContent = styled.div`
     background-color: #ffffff;
     height: 600px;
     display: flex;
-    padding: 5rem;
+    margin: 5rem 6rem 0rem 6rem;
     justify-content: center;
 `
 export const HomeHeader = styled.div`
     text-align: center;
-    padding: 5rem 0rem 0rem 0rem;
-    font-size: 4rem;
-    color: #12130f;
+    padding: 3rem 0rem 0rem 0rem;
+    font-size: 5rem;
+    color: #000000;
     text-transform: capitalize;
     display: flex;
     justify-content: center;
@@ -34,8 +34,9 @@ export const ModelContainer = styled.div`
 `
 export const ModelName = styled.div`
     margin: 0rem 0rem;
-    color: #12130f;
-    font-size: 2.5rem;
+    color: #000000;
+    font-size: 2.2rem;
+    font-style: italic;
     transform: translateY(150%);
 
     @keyframes textLoop {
@@ -46,10 +47,10 @@ export const ModelName = styled.div`
             transform: translateY(150%);
         }
         50% {
-            transform: translateY(-10%);
+            transform: translateY(-5%);
         }
         60% {
-            transform: translateY(-10%);
+            transform: translateY(-5%);
         }
         70% {
             transform: translateY(150%);
@@ -68,7 +69,7 @@ export const ModelImage = styled.div`
     overflow: hidden;
     border-left: white 1px;
     border-right: white 1px;
-    filter: grayscale(100%);
+    
     /* filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.40)); */
     
     @keyframes scaleLoop {
@@ -78,7 +79,7 @@ export const ModelImage = styled.div`
         }
         40% {
             transform: scale(1);
-            filter: grayscale(100%);
+            
         }
         50% {
             transform: scale(1.1);
@@ -90,7 +91,7 @@ export const ModelImage = styled.div`
         }
         70% {
             transform: scale(1);
-            filter: grayscale(100%);
+            
         }
 
     }
