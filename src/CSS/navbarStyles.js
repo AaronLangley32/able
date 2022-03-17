@@ -6,10 +6,9 @@ export const NavContainer = styled.div`
     background: #12130f;
     height: 90px;
     width: 100%;
-    position: sticky;
+    position: fixed;
     z-index: 10;
     box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
-    position: relative;
 
     @media screen and (max-width: 960px) {
         transition: 0.8s all ease;

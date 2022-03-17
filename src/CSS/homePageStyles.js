@@ -2,20 +2,20 @@ import styled from 'styled-components';
 
 
 export const HomeContainer = styled.div`
-    height: 90vh;
+    height: 100%;
     width: 100%;
     background-color: #ffffff;
 `
 export const HomeContent = styled.div`
     background-color: #ffffff;
-    height: 600px;
+    height: 500px;
     display: flex;
     margin: 5rem 6rem 0rem 6rem;
     justify-content: center;
 `
 export const HomeHeader = styled.div`
     text-align: center;
-    padding: 3rem 0rem 0rem 0rem;
+    padding: 8rem 0rem 0rem 0rem;
     font-size: 5rem;
     color: #000000;
     text-transform: capitalize;
