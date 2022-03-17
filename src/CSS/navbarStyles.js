@@ -21,8 +21,30 @@ export const NavLogo = styled.div`
     height: 90px;
     width: 180px;
     background-size: cover;
-    position: absolute;
-    margin-left: 2rem;
+    margin-right: auto;
+    margin-left: 1rem;
+`
+export const NavPhoneEmail = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+`
+export const NavPhoneButton = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &::hover {
+
+    }
+`
+export const NavEmailButton = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &::hover {
+        
+    }
 `
 export const Nav = styled.nav`
     height: 90px;
@@ -30,7 +52,7 @@ export const Nav = styled.nav`
     color: white;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 `
 export const Link = styled(LinkR)`
     margin: 0rem 2rem;
