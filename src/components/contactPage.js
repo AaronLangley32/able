@@ -23,6 +23,9 @@ function Contact() {
               >
             </iframe>
           </LeftInfo>
+          <LeftInfo>
+            BY APPOINTMENT ONLY, 1084 NE Jensen Beach Blvd, Jensen Beach, FL 34957
+          </LeftInfo>
         </ContentLeft>
         <ContentRight>
           <RightHeader>

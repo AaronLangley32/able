@@ -39,7 +39,7 @@ export const LeftHeader = styled.div`
     text-decoration: underline wavy 0.1rem;
 `
 export const LeftInfo = styled.div`
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-style: italic;
     color: #1b1c18;
     font-family: Bebas;
