@@ -17,8 +17,8 @@ export const NavContainer = styled.div`
 export const NavLogo = styled.div`
     background-image: url(${logoImg});
     background-position: center;
-    height: 90px;
-    width: 180px;
+    height: 80px;
+    width: 160px;
     background-size: cover;
     margin-right: auto;
     margin-left: 1rem;
