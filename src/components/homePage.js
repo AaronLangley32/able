@@ -4,7 +4,7 @@ import img2 from '../images/contractor.png'
 import img3 from '../images/mockup.png'
 import img4 from '../images/finished.png'
 import { HomeContainer, HomeContent, HomeHeader, ModelContainer, ModelName, ModelImage } from '../CSS/homePageStyles'
-import { BiCloset } from 'react-icons/bi';
+
 function Home() {
   return (
     <HomeContainer>

@@ -16,4 +16,24 @@ code {
     monospace;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #12130f;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #eeeeee;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #e3e3e8;
+}
