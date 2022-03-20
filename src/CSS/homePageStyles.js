@@ -17,7 +17,7 @@ export const HomeHeader = styled.div`
     text-align: center;
     padding: 8rem 0rem 0rem 0rem;
     font-size: 5rem;
-    color: #000000;
+    color: #12130f;
     text-transform: capitalize;
     display: flex;
     justify-content: center;
@@ -34,26 +34,32 @@ export const ModelContainer = styled.div`
 `
 export const ModelName = styled.div`
     margin: 0rem 0rem;
-    color: #000000;
+    color: #12130f;
     font-size: 2.2rem;
     font-style: italic;
     transform: translateY(150%);
+    opacity: 0;
 
     @keyframes textLoop {
         0% {
             transform: translateY(150%);
+            opacity: 0;
         }
         40% {
             transform: translateY(150%);
+            opacity: 0;
         }
         50% {
             transform: translateY(-5%);
+            opacity: 1;
         }
         60% {
             transform: translateY(-5%);
+            opacity: 1;
         }
         70% {
             transform: translateY(150%);
+            opacity: 0;
         }
 
     }
