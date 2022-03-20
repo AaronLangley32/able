@@ -5,6 +5,7 @@ export const FooterContainer = styled.div`
     height: 30px;
     background-color: #00000075;
     position: absolute;
+    position: fixed;
     bottom: 0;
     display: flex;
     justify-content: center;
