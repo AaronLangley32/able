@@ -1,23 +1,23 @@
 import React from 'react'
 import { PhotoContainer, PhotoContent, PhotoHeader, ImgGrid, ImgCard, ImgName, ImgImg, ImgInfo } from '../CSS/photoPageStyles'
-import img1 from '../images/photo_gallery/displayed/builtins.jpg';
-import img2 from '../images/photo_gallery/displayed/builtins2.jpg';
-import img3 from '../images/photo_gallery/displayed/builtins3.jpg';
-import img4 from '../images/photo_gallery/displayed/builtins4.jpg';
-import img5 from '../images/photo_gallery/displayed/closet_shelves.jpg';
-import img6 from '../images/photo_gallery/displayed/closet_shelves2.jpg';
-import img7 from '../images/photo_gallery/displayed/closet_shelves3.jpg';
-import img8 from '../images/photo_gallery/displayed/closet_shelves4.jpg';
-import img9 from '../images/photo_gallery/displayed/closet_shoe_rack.jpg';
-import img10 from '../images/photo_gallery/displayed/garage_cabinets.jpg';
-import img11 from '../images/photo_gallery/displayed/garage_shelves.jpg';
-import img12 from '../images/photo_gallery/displayed/garage_tool_shelves.jpg';
-import img13 from '../images/photo_gallery/displayed/kitchen_cabinets.jpg';
-import img14 from '../images/photo_gallery/displayed/kitchen_pantry.jpg';
-import img15 from '../images/photo_gallery/displayed/murphy_beds.jpg';
-import img16 from '../images/photo_gallery/displayed/murphy_beds2.jpg';
-import img17 from '../images/photo_gallery/displayed/murphy_beds3.jpg';
-import img18 from '../images/photo_gallery/displayed/murphy_beds4.jpg';
+import img1 from '../images/photo_gallery/displayed/builtins-min.jpg';
+import img2 from '../images/photo_gallery/displayed/builtins2-min.jpg';
+import img3 from '../images/photo_gallery/displayed/builtins3-min.jpg';
+import img4 from '../images/photo_gallery/displayed/builtins4-min.jpg';
+import img5 from '../images/photo_gallery/displayed/closet_shelves-min.jpg';
+import img6 from '../images/photo_gallery/displayed/closet_shelves2-min.jpg';
+import img7 from '../images/photo_gallery/displayed/closet_shelves3-min.jpg';
+import img8 from '../images/photo_gallery/displayed/closet_shelves4-min.jpg';
+import img9 from '../images/photo_gallery/displayed/closet_shoe_rack-min.jpg';
+import img10 from '../images/photo_gallery/displayed/garage_cabinets-min.jpg';
+import img11 from '../images/photo_gallery/displayed/garage_shelves-min.jpg';
+import img12 from '../images/photo_gallery/displayed/garage_tool_shelves-min.jpg';
+import img13 from '../images/photo_gallery/displayed/kitchen_cabinets-min.jpg';
+import img14 from '../images/photo_gallery/displayed/kitchen_pantry-min.jpg';
+import img15 from '../images/photo_gallery/displayed/murphy_beds-min.jpg';
+import img16 from '../images/photo_gallery/displayed/murphy_beds2-min.jpg';
+import img17 from '../images/photo_gallery/displayed/murphy_beds3-min.jpg';
+import img18 from '../images/photo_gallery/displayed/murphy_beds4-min.jpg';
 
 
 export const Photo = () => {
