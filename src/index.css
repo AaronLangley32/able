@@ -1,22 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300;400;500&family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap");
-@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300;400;500&family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap);
-@import url(//db.onlinewebfonts.com/c/96996b95c19ecf8733387b6c0b2311e3?family=Rossetti);
+@font-face {
+  font-family: Bebas;
+  src: url(./fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: Rossetti;
+  src: url(./fonts/Rossetti\ W00\ Regular.ttf);
+}
+@font-face {
+  font-family: OpenSans;
+  src: url(./fonts/OpenSans-Variable.ttf);
+}
 
 body {
+  font-family: OpenSans;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+/* Custom scrollbar */
 
-/* width */
+/* width & height*/
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
@@ -36,4 +41,9 @@ code {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #e3e3e8;
+}
+
+/* Navbar active link styling */
+.active {
+  text-decoration: underline;
 }

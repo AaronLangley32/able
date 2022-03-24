@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link as LinkR } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logoImg from '../images/logo_white.png'
 
 export const NavContainer = styled.div`
@@ -67,7 +67,7 @@ export const Nav = styled.nav`
     justify-content: center;
     align-items: center;
 `
-export const Link = styled(LinkR)`
+export const Link = styled(NavLink)`
     margin: 0rem 2rem;
     font-size: 1.5rem;
 
@@ -105,5 +105,6 @@ export const DropdownBars = styled.div`
         justify-content: center;
         margin-right: 1.5rem;
         font-size: 2.5rem;
+        cursor: pointer;
     }
 `
