@@ -5,13 +5,42 @@ export const HomeContainer = styled.div`
     height: 100%;
     width: 100%;
     background-color: #ffffff;
+
+    @media screen and (max-width: 1300px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    @media screen and (max-width: 650px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 `
 export const HomeContent = styled.div`
-    background-color: #ffffff;
+    /* background-color: red; */
     height: 500px;
     display: flex;
     margin: 5rem 6rem 0rem 6rem;
     justify-content: center;
+
+    @media screen and (max-width: 1300px) {
+        margin: 0rem 0rem 0rem 0rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 75px;
+        padding: 0px 0px 25px 0px;
+    }
+    @media screen and (max-width: 650px) {
+        height: 400px;
+        margin: 0rem 0rem 0rem 0rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+        padding: 0px 0px 25px 0px;
+    }
 `
 export const HomeHeader = styled.div`
     text-align: center;
@@ -22,15 +51,34 @@ export const HomeHeader = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    @media screen and (max-width: 1300px) {
+        padding: 8rem 0rem 2rem 0rem;
+        font-size: 3.5rem;
+    }
+    @media screen and (max-width: 650px) {
+        padding: 6.5rem 0rem 1.5rem 0rem;
+        font-size: 2.2rem;
+    }
 `
 export const ModelContainer = styled.div`
     height: 25rem;
     width: 20rem;
-    margin: 0rem 0rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* background-color: green; */
+
+    @media screen and (max-width: 1300px) {
+        height: 18rem;
+        width: 15rem;
+    }
+    @media screen and (max-width: 650px) {
+        height: 12rem;
+        width: 11rem;
+        margin-top: 1rem;
+    }
 `
 export const ModelName = styled.div`
     margin: 0rem 0rem;
@@ -39,7 +87,6 @@ export const ModelName = styled.div`
     font-style: italic;
     transform: translateY(150%);
     opacity: 0;
-
     @keyframes textLoop {
         0% {
             transform: translateY(150%);
@@ -61,7 +108,57 @@ export const ModelName = styled.div`
             transform: translateY(150%);
             opacity: 0;
         }
+    }
 
+    @media screen and (max-width: 1300px) {
+        font-size: 1.8rem;
+            @keyframes textLoop {
+                0% {
+                    transform: translateY(150%);
+                    opacity: 0;
+                }
+                40% {
+                    transform: translateY(150%);
+                    opacity: 0;
+                }
+                50% {
+                    transform: translateY(-55%);
+                    opacity: 1;
+                }
+                60% {
+                    transform: translateY(-55%);
+                    opacity: 1;
+                }
+                70% {
+                    transform: translateY(150%);
+                    opacity: 0;
+                }
+            }
+    }
+    @media screen and (max-width: 650px) {
+        font-size: 1.3rem;
+            @keyframes textLoop {
+            0% {
+                transform: translateY(150%);
+                opacity: 0;
+            }
+            40% {
+                transform: translateY(150%);
+                opacity: 0;
+            }
+            50% {
+                transform: translateY(-55%);
+                opacity: 1;
+            }
+            60% {
+                transform: translateY(-55%);
+                opacity: 1;
+            }
+            70% {
+                transform: translateY(150%);
+                opacity: 0;
+            }
+        }
     }
 `
 export const ModelImage = styled.div`
@@ -76,7 +173,19 @@ export const ModelImage = styled.div`
     border-left: white 1px;
     border-right: white 1px;
     
-    /* filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.40)); */
+    @media screen and (max-width: 1300px) {
+        height: 17rem;
+        width: 17rem;
+        margin: 0rem 0rem 0rem 0rem;
+        padding: 0rem 0.5rem;
+        
+    }
+    @media screen and (max-width: 650px) {
+        height: 13rem;
+        width: 11rem;
+        margin: 0rem 0rem 0rem 0rem;
+        padding: 0rem 0.5rem;
+    }
     
     @keyframes scaleLoop {
         0% {

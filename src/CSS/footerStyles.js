@@ -15,6 +15,17 @@ export const FooterSocials = styled.div`
     margin-right: auto;
     margin-left: 4rem;
     font-size: 0.8rem;
+    
+    @media screen and (max-width: 1300px){
+        margin-left: 4rem;
+        font-size: 0.8rem;
+    }
+
+    @media screen and (max-width: 650px){
+        margin-right: 0rem;
+        margin-left: 0rem;
+        font-size: 0.8rem;
+    }
 `
 export const SocialsLink = styled.div`
 
@@ -26,4 +37,13 @@ export const FooterCopyright = styled.div`
     font-size: 0.8rem;
     color: #000000;
     margin-right: 4rem;
+
+    @media screen and (max-width: 1300px){
+        margin-right: 4rem;
+        font-size: 0.8rem;
+    }
+
+    @media screen and (max-width: 650px){
+        display: none;
+    }
 `

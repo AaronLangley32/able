@@ -1,6 +1,6 @@
 import React from 'react';
-import { NavContainer, NavLogo, Nav, Link, NavPhoneEmail, NavPhoneButton, NavEmailButton } from '../CSS/navbarStyles';
-import { FaDotCircle, FaPhoneAlt } from 'react-icons/fa';
+import { NavContainer, NavLogo, Nav, Link, LinkSpacer, NavPhoneEmail, NavPhoneButton, NavEmailButton, DropdownBars } from '../CSS/navbarStyles';
+import { FaDotCircle, FaPhoneAlt, FaBars } from 'react-icons/fa';
 import { HiOutlineMail } from "react-icons/hi";
 export const Navbar = () => {
   return (
@@ -8,11 +8,17 @@ export const Navbar = () => {
       <Nav>
         <NavLogo />
         <Link to='/'>HOME</Link>
-        <FaDotCircle style={{'fontSize': '0.5rem'}} />
+        <LinkSpacer>
+          <FaDotCircle/>
+        </LinkSpacer>
         <Link to='/about'>ABOUT US</Link>
-        <FaDotCircle style={{'fontSize': '0.5rem'}} />
+        <LinkSpacer>
+          <FaDotCircle/>
+        </LinkSpacer>
         <Link to='/contact'>CONTACT</Link>
-        <FaDotCircle style={{'fontSize': '0.5rem'}} />
+        <LinkSpacer>
+          <FaDotCircle/>
+        </LinkSpacer>
         <Link to='/photo'>PHOTO GALLERY</Link>
         <NavPhoneEmail>
           <NavPhoneButton>
@@ -22,6 +28,9 @@ export const Navbar = () => {
             <HiOutlineMail style={{'color': '#195AE5', 'margin': '0rem 1rem', 'fontSize': '2rem'}} />
           </NavEmailButton>     
         </NavPhoneEmail>
+        <DropdownBars>
+          <FaBars />
+        </DropdownBars>
       </Nav>
     </NavContainer>
   )
