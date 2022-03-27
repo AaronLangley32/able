@@ -8,7 +8,7 @@ export const Footer = () => {
             <SocialsLink>(772) 486-4042 | AbleClosets@gmail.com</SocialsLink>
         </FooterSocials>
         <FooterCopyright>
-            Copyright <BiCopyright style={{'fontSize': '1.5rem', 'padding': '0.2rem 0.3rem 0rem 0.3rem'}}/> 2022 Able Closets Inc | Stuart FL
+            Copyright <BiCopyright style={{'fontSize': '0.8rem', 'margin': '0.2rem 0.3rem 0.25rem 0.4rem'}}/> 2022 Able Closets Inc | Stuart FL
         </FooterCopyright>
     </FooterContainer>
   )
